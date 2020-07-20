@@ -1,31 +1,98 @@
 <!DOCTYPE html>
 <html>
     <head>
+        
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <title>
             Ahmad's Page
         </title>
 
     </head>
-
     <body>
+        <div class="whole page" style="background-color: darkgrey;">
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="f4485089-c2b8-4933-99a5-16600e3bb585_200x200.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                Ahmad Naeem
+              </a>
+            <a class="navbar-brand" href="#">Main Page</a>
+            <!-- Navbar content -->
+          </nav>
 
         <center><h1>Welcome to my Page!</h1></center>
-        <p>
-            My name is Ahmad Naeem and I am a 21 year old graduate from Queen Mary University of London. In A-Levels I studied:
-        </p>
-        <ol>
-            <li>Computer Science</li>
-            <li>Mathematics</li>
-            <li>Biology</li>
-            <li>Chemistry</li>
-        </ol>
-        <p>Apart from studying I do a lot of fun and intresting things on the side. Some of my hobbies are:</p>
-        <ul>
-            <li>Playing Team Sports</li>
-            <li>Playing Golf</li>
-            <li>Playing the piano</li>
-            <li>Gaming</li>
-        </ul>
-        <img src="IMG_2438.JPG" alt="Profile Picture" height="400px">
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <img src="IMG_2438.JPG" alt="Profile Picture" height="400px" class="border">
+                  </div>
+              <div class="col-sm">
+                <p>
+                    My name is Ahmad Naeem and I am a 21 year old graduate from Queen Mary University of London. In A-Levels I studied:
+                </p>
+                <ol>
+                    <li>Computer Science</li>
+                    <li>Mathematics</li>
+                    <li>Biology</li>
+                    <li>Chemistry</li>
+                </ol>
+                <p>Apart from studying I do a lot of fun and intresting things on the side. Some of my hobbies are:</p>
+                <ul>
+                    <li>Playing Team Sports</li>
+                    <li>Playing Golf</li>
+                    <li>Playing the piano</li>
+                    <li>Gaming</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        <br>
+
+        <div class="border" style="padding: 20px;">
+            <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputPassword4">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress">Address</label>
+                  <input type="text" class="form-control" id="inputAddress">
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="inputState">County</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>Choose...</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-2">
+                    <label for="inputZip">Postcode</label>
+                    <input type="text" class="form-control" id="inputZip">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+                <button type="reset" class="btn btn-danger">Re-set</button>
+              </form>
+         </div> 
+        </div>
     </body>
 </html>
