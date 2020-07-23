@@ -1,15 +1,18 @@
 let quote = ["I", "am", "your", "friend"]
 
+
+function readAll(array){
+    for (let i=0; i<array.length; i++){
+        console.log(array[i]);
+    }
+}
+
 console.log(quote);
 
-for (let i=0; i<quote.length; i++){
-    console.log(quote[i]);
-}
+readAll(quote)
 
 quote.pop();
 quote.push("father");
 
-for (let i=0; i<quote.length; i++){
-    console.log(quote[i]);
-}
+readAll(quote)
 
